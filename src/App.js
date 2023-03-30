@@ -156,12 +156,12 @@ hourCount=()=>{
                 </h1>
               </div>
               <div className="card-body text-center">
-              <button className='btn btn-info m-2' onClick={this.hourCount}>H+</button>:
-                <button className='btn btn-info m-2' onClick={this.minuteCount}>M+</button>:
+              <button className='btn btn-info m-2' onClick={this.hourCount}>H+</button>
+                <button className='btn btn-info m-2' onClick={this.minuteCount}>M+</button>
                 <button className='btn btn-info m-2' onClick={this.secondCount}>S+</button>
                 <br />
-                <button className='btn btn-danger m-2'><h2>{hour}</h2></button>
-                <button className='btn btn-danger m-2'><h2>{minute}</h2></button>
+                <button className='btn btn-danger m-2'><h2>{hour}</h2></button>:
+                <button className='btn btn-danger m-2'><h2>{minute}</h2></button>:
                 <button className='btn btn-danger m-2'><h2>{second}</h2></button>
               </div>
               <div className="card-footer text-center">
